@@ -7,7 +7,7 @@
 ## asciiJudge
 ###### 输入一个字符，请判断是字母、数字还是特殊字符。
 利用ASCII码比较即可
-[source](../../switch_Algorithm.cpp)
+[source](../../asciiJudge.cpp)
 
 ## num2date
 ###### 编写程序，输入任意一个1~7之间的整数，将他们转换成对应的表示星期几的英文单词，例如：1转换成Monday，7转换成Sunday。
