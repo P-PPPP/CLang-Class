@@ -1,7 +1,7 @@
 # 目录
-[asciiJudge](#asciiJudge)\n
-[num2date](#num2date)\n
-[switch_Algorithm](#switch_Algorithm)\n
+[asciiJudge](#asciiJudge)</br>
+[num2date](#num2date)</br>
+[switch_Algorithm](#switch_Algorithm)</br>
 
 
 ## asciiJudge
