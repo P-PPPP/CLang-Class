@@ -5,6 +5,9 @@
 [getchar](#getchar)</br>
 [1+12+...](#1+12+...)</br>
 [asciia2z](#asciia2z)</br>
+[findFactory](#findFactory)</br>
+[alphabetTriangle](#alphabetTriangle)</br>
+[1+(1+2)+...](#1+(1+2)+...)</br>
 
 
 ## asciiJudge
@@ -36,3 +39,23 @@
 ###### 计算s=1+12+123+1234+12345的值。
 好像忘了，多加了```math.h```，罪过
 [source](asciia2z.cpp)
+
+## findFactory
+###### 输出100以内具有10个以上因子的整数，并输出它的因子。
+坑: 0%0 会死循环...调试了快一小时。真让人骂人(关键是编译还能pass...佛了)
+[source](findFactory.cpp)
+
+## alphabetTriangle
+###### 输出以下图形。</br>
+							   A
+							  ABC
+							 ABCDE
+							ABCDEFG
+简单聊思路吧，每一行输出的数目是行数的奇数(2n-1)，然后是关于排版，只需要输出前面的(A前面的空格)，做循环每次输出一个空格。
+[source](alphabetTriangle.cpp)
+
+
+## 1+(1+2)+...
+###### 求s=1+(1+2)+(1+2+3)+⋯+(1+2+3+⋯+n)，要求n从键盘输入。
+做两次循环嵌套..
+[source](1+(1+2)+....cpp)
