@@ -1,10 +1,13 @@
 # 目录
+### 实验四
 [asciiJudge](#asciiJudge)</br>
 [num2date](#num2date)</br>
 [switch_Algorithm](#switch_Algorithm)</br>
+### 实验五
 [getchar](#getchar)</br>
 [1+12+...](#1+12+...)</br>
 [asciia2z](#asciia2z)</br>
+### 实验六
 [findFactory](#findFactory)</br>
 [alphabetTriangle](#alphabetTriangle)</br>
 [1+(1+2)+...](#1+(1+2)+...)</br>
@@ -43,6 +46,7 @@
 ## findFactory
 ###### 输出100以内具有10个以上因子的整数，并输出它的因子。
 **坑: 0%0 会死循环...调试了快一小时。真让人骂人(关键是编译还能pass...佛了)**
+其实应该拿数组的，这样直接```a[].length>10```就行。
 [source](findFactory.cpp)
 
 ## alphabetTriangle
