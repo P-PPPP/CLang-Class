@@ -11,6 +11,10 @@
 [findFactory](#findFactory)</br>
 [alphabetTriangle](#alphabetTriangle)</br>
 [1+(1+2)+...](#1+(1+2)+...)</br>
+### 实验七
+[Fibonacci50](#Fibonacci50)</br>
+[biggestInArray](#biggestInArray)</br>
+[ExchangeArrayElements](#ExchangeArrayElements)</br>
 
 
 ## asciiJudge
@@ -58,8 +62,20 @@
 简单聊思路吧，每一行输出的数目是行数的奇数(2n-1)，然后是关于排版，只需要输出前面的(A前面的空格)，做循环每次输出一个空格。
 [source](alphabetTriangle.cpp)
 
-
 ## 1+(1+2)+...
 ###### 求s=1+(1+2)+(1+2+3)+⋯+(1+2+3+⋯+n)，要求n从键盘输入。
 做两次循环嵌套..
 [source](1+(1+2)+....cpp)
+
+## Fibonacci50
+###### 编写程序，计算Fibonacci数列的前50项。</br>
+这里面遇到了内存溢出问题，long int 也拉跨了，一开始想着可以用char把数字转换为字符串，这样无视溢出。但是后来与ASCII冲突。最后用float解决问题，虽然有点拉跨。
+[source](Fibonacci50.cpp)
+
+## biggestInArray
+###### 长度为10的数组，编写程序找出其中的最大数及其在该数组中的位置。
+[source](biggestInArray.cpp)
+
+## ExchangeArrayElements
+###### 将一个二维数组的行列元素互换，存放到另一个二维数组中。
+[source](ExchangeArrayElements.cpp)
