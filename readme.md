@@ -15,6 +15,10 @@
 [Fibonacci50](#Fibonacci50)</br>
 [biggestInArray](#biggestInArray)</br>
 [ExchangeArrayElements](#ExchangeArrayElements)</br>
+### 实验八
+[ringSqure](#ringSqure)</br>
+[lowestMultipist&biggestDiviser](#lowestMultipist&biggestDiviser)</br>
+
 
 
 ## asciiJudge
@@ -79,3 +83,13 @@
 ## ExchangeArrayElements
 ###### 将一个二维数组的行列元素互换，存放到另一个二维数组中。
 [source](ExchangeArrayElements.cpp)
+
+## ringSqure
+###### 编写求圆的面积的函数，并调用该函数求出圆环的面积。
+坑就是数据类型，计算的优先级
+[source](ringSqure.cpp)
+
+## lowestMultipist&biggestDiviser
+###### 编写两个函数分别求两个整数的最大公约数和最小公倍数，用主函数调用两个函数并输出结果，两个整数由键盘输入。
+需要知道两数的乘积其实是最大公约数和最小公倍数的乘积。这样的话就好算了，把最大公约数直接遍历，最小公倍数直接调用即可
+[source](lowestMultipist&biggestDiviser.cpp)
