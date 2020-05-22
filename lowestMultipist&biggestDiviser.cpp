@@ -12,7 +12,7 @@ int main(){
 
 int biggestDiviser(int a,int b)
 {	
-	int compare=0,result;//manully def a>b
+	int compare=0,result;//manually def a>b
 
 	if(a<b)
 	{
